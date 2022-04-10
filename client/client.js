@@ -45,7 +45,7 @@ function listAllBarks(){
   fetch(API_URL)
     .then(response => response.json())
     .then(barks => {
-      console.log(barks);
+      // console.log(barks);
       barks.reverse()
       barks.forEach(bark => {
         const div = document.createElement('div')
